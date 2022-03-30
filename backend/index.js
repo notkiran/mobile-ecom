@@ -4,6 +4,7 @@ import cors from "cors";
 import { MongoClient } from "mongodb";
 import dotenv from "dotenv";
 dotenv.config();
+const PORT = process.env.PORT;
 
 app.use(cors());
 app.use(express.json());
@@ -43,6 +44,6 @@ app.post("/api/mobiles", async (req, res) => {
   res.json(result);
 });
 
-app.listen(4000, () => {
-  console.log("App listening on port 4000!");
+app.listen(PORT, () => {
+  console.log(`App listening on port ${PORT}!`);
 });
