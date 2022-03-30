@@ -1,0 +1,45 @@
+.App {
+  text-align: center;
+}
+
+body {
+  background-color: whitesmoke;
+  font-family: Roboto;
+  margin: 16px;
+}
+
+.phone-name {
+  padding: 16px;
+  font-size: 48px;
+  margin-bottom: 0px;
+}
+
+.phone-company {
+  font-size: 32px;
+  color: grey;
+  margin-top: 0px;
+}
+
+.phone-picture {
+  height: 540px;
+  width: 750px;
+  object-fit: contain;
+}
+
+.phone-container {
+  background-color: white;
+  width: 750px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: rgb(0 0 0 / 24%) 1px 2px 13px;
+  margin-bottom: 32px;
+}
+
+.mobile-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  margin: 24px;
+}
